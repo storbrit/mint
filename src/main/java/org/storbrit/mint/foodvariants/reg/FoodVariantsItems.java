@@ -7,13 +7,14 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import org.quiltmc.qsl.item.setting.api.QuiltItemSettings;
 import org.storbrit.mint.Mint;
+import org.storbrit.mint.foodvariants.item.FVFoodComponents;
 
 @SuppressWarnings("unused")
 public class FoodVariantsItems {
 	// I intend for the green apple to have slightly different hunger and saturation values, but I haven't gotten
 	// around to it yet
 	public static final Item GREEN_APPLE = register("green_apple", ItemGroups.FOOD_AND_DRINK, Items.APPLE,
-			new Item((new QuiltItemSettings()).food(FoodComponents.APPLE)));
+			new Item((new QuiltItemSettings()).food(FVFoodComponents.GREEN_APPLE)));
 
 	@SuppressWarnings("UnstableApiUsage")
 	private static Item register(String id, ItemGroup group, Item groupTarget, Item item) {
