@@ -11,8 +11,6 @@ import org.storbrit.mint.foodvariants.item.FVFoodComponents;
 
 @SuppressWarnings("unused")
 public class FoodVariantsItems {
-	// I intend for the green apple to have slightly different hunger and saturation values, but I haven't gotten
-	// around to it yet
 	public static final Item GREEN_APPLE = register("green_apple", ItemGroups.FOOD_AND_DRINK, Items.APPLE,
 			new Item((new QuiltItemSettings()).food(FVFoodComponents.GREEN_APPLE)));
 
