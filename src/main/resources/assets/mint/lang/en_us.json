@@ -1,4 +1,6 @@
 {
   "_feature": "Food variants",
-  "item.mint.green_apple": "Green Apple"
+  "item.mint.green_apple": "Green Apple",
+  "item.mint.chocolate_bar": "Chocolate Bar",
+  "block.mint.chocolate_cake": "Chocolate Cake"
 }
