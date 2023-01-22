@@ -15,7 +15,8 @@ import org.storbrit.mint.foodvariants.block.ChocolateCakeBlock;
 @SuppressWarnings("unused")
 public class FoodVariantsBlocks {
 	public static final Block CHOCOLATE_CAKE = register("chocolate_cake", ItemGroups.FOOD_AND_DRINK, Items.CAKE,
-			new ChocolateCakeBlock(AbstractBlock.Settings.of(Material.CAKE).strength(0.5F).sounds(BlockSoundGroup.WOOL)));
+			new ChocolateCakeBlock(
+					AbstractBlock.Settings.of(Material.CAKE).strength(0.5F).sounds(BlockSoundGroup.WOOL)));
 
 	@SuppressWarnings("UnstableApiUsage")
 	private static Block register(String id, ItemGroup group, Item groupTarget, Block block) {
