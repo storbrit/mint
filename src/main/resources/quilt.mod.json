@@ -40,5 +40,6 @@
 			}
 		]
 	},
-	"mixin": "mint.mixins.json"
+	"mixin": "mint.mixins.json",
+	"accessWidener": "mint.accesswidener"
 }

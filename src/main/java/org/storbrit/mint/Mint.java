@@ -6,6 +6,7 @@ import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.storbrit.mint.foodvariants.FoodVariantsFeature;
+import org.storbrit.mint.toolvariants.ToolVariantsFeature;
 
 public class Mint implements ModInitializer {
 	public static final String MOD_ID = "mint";
@@ -14,6 +15,7 @@ public class Mint implements ModInitializer {
 	@Override
 	public void onInitialize(ModContainer mod) {
 		FoodVariantsFeature.init();
+		ToolVariantsFeature.init();
 	}
 
 	public static Identifier id(String path) {
