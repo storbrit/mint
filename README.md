@@ -17,3 +17,8 @@ Mint is a Minecraft mod that makes some tiny changes that (hopefully) flush well
 
 - Separate splash bottles from normal bottles with a custom crafting recipe to use instead of adding gunpowder to normal
   potions
+
+### License
+
+This repository is licensed under the [GPL V3](https://www.gnu.org/licenses/gpl-3.0.en.html): it is free software, and
+will stay free software.
