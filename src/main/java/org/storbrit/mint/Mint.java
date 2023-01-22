@@ -1,5 +1,6 @@
 package org.storbrit.mint;
 
+import net.minecraft.util.Identifier;
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 import org.slf4j.Logger;
@@ -13,5 +14,9 @@ public class Mint implements ModInitializer {
 	@Override
 	public void onInitialize(ModContainer mod) {
 		FoodVariantsFeature.init();
+	}
+
+	public static Identifier id(String path) {
+		return new Identifier(MOD_ID, path);
 	}
 }
