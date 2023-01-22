@@ -23,6 +23,10 @@
 		},
 		"depends": [
 			{
+				"id": "britlib",
+				"versions": "1.x"
+			},
+			{
 				"id": "quilt_loader",
 				"versions": ">=0.17.6-"
 			},
