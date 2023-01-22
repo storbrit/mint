@@ -5,7 +5,7 @@ import org.storbrit.mint.toolvariants.reg.ToolVariantsItems;
 
 public class ToolVariantsFeature {
 	public static void init() {
-		Mint.LOGGER.info("Initialising tool variants feature");
+		Mint.LOGGER.debug("Initialising tool variants feature");
 
 		ToolVariantsItems.init();
 	}

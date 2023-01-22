@@ -17,6 +17,6 @@ public class FoodVariantsBlocks {
 			ItemGroups.FOOD_AND_DRINK, Blocks.CAKE.asItem());
 
 	public static void init() {
-		Mint.LOGGER.info("Registering food variant blocks");
+		Mint.LOGGER.debug("Registering food variant blocks");
 	}
 }

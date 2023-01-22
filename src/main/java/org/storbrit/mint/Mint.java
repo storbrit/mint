@@ -14,6 +14,8 @@ public class Mint implements ModInitializer {
 
 	@Override
 	public void onInitialize(ModContainer mod) {
+		Mint.LOGGER.info("how it feels to chew 5 MINT");
+
 		FoodVariantsFeature.init();
 		ToolVariantsFeature.init();
 	}

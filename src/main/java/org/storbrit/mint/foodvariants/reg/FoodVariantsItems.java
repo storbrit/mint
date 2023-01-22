@@ -31,6 +31,6 @@ public class FoodVariantsItems {
 	}
 
 	public static void init() {
-		Mint.LOGGER.info("Registering food variant items");
+		Mint.LOGGER.debug("Registering food variant items");
 	}
 }

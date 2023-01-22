@@ -25,6 +25,6 @@ public class ToolVariantsItems {
 			ItemGroups.TOOLS, Items.STONE_HOE);
 
 	public static void init() {
-		Mint.LOGGER.info("Registering tool variant items");
+		Mint.LOGGER.debug("Registering tool variant items");
 	}
 }
