@@ -5,6 +5,7 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 public enum TVToolMaterials implements ToolMaterial {
+	DEEPSLATE(1, 192, 4.0F, 1.0F, 5, Ingredient.ofItems(Items.COBBLED_DEEPSLATE)),
 	NETHERRACK(1, 76, 5.0F, 1.0F, 14, Ingredient.ofItems(Items.NETHERRACK));
 
 	private final int miningLevel;

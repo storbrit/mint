@@ -5,6 +5,11 @@
 	"block.mint.chocolate_cake": "Chocolate Cake",
 
 	"_feature2": "Tool variants",
+	"item.mint.deepslate_sword": "Deepslate Sword",
+	"item.mint.deepslate_shovel": "Deepslate Shovel",
+	"item.mint.deepslate_pickaxe": "Deepslate Pickaxe",
+	"item.mint.deepslate_axe": "Deepslate Axe",
+	"item.mint.deepslate_hoe": "Deepslate Hoe",
 	"item.mint.netherrack_sword": "Netherrack Sword",
 	"item.mint.netherrack_shovel": "Netherrack Shovel",
 	"item.mint.netherrack_pickaxe": "Netherrack Pickaxe",
