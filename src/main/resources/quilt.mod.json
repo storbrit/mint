@@ -19,7 +19,8 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "org.storbrit.mint.Mint"
+			"init": "org.storbrit.mint.Mint",
+			"client_init": "org.storbrit.mint.MintClient"
 		},
 		"depends": [
 			{

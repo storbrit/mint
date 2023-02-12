@@ -5,6 +5,7 @@ import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.storbrit.mint.augredstone.AugRedstoneFeature;
 import org.storbrit.mint.foodvariants.FoodVariantsFeature;
 import org.storbrit.mint.toolvariants.ToolVariantsFeature;
 
@@ -16,6 +17,7 @@ public class Mint implements ModInitializer {
 	public void onInitialize(ModContainer mod) {
 		Mint.LOGGER.info("how it feels to chew 5 MINT");
 
+		AugRedstoneFeature.init();
 		FoodVariantsFeature.init();
 		ToolVariantsFeature.init();
 	}
