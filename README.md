@@ -6,17 +6,18 @@ Mint is a Minecraft mod that makes some tiny changes that (hopefully) complement
 
 - Augmented redstone: right-click a redstone wire with a blaze rod to augment it. Augmented redstone is blue and
   functions the same as normal redstone without connecting to it.
+- Green apples that restore more hunger but less saturation
+- Tool variants for stone types
+    - Deepslate: same mining speed as stone, more durable
+    - Netherrack: mining speed in between stone and iron but less durable
 
 ### Partially implemented
 
-- Green apples that restore more hunger but less saturation
 - Chocolate cakes that restore a lot of saturation but not much hunger
-- Tool variants for every wood and stone type, and pigsteel if the pigsteel mod is installed
 
 ### Maybe at some point in the future
 
-- Separate splash bottles from normal bottles with a custom crafting recipe to use instead of adding gunpowder to normal
-  potions
+- Separation of splash bottles from normal bottles, instead of adding gunpowder to normal potions
 - Aether / sky dimension (was initially going to be a part of a mod for larger features like this, but i don't have many
   ideas lol so i might merge those ideas into this mod)
 
