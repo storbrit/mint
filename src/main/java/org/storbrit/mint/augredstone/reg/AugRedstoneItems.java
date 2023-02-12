@@ -8,6 +8,7 @@ import org.quiltmc.qsl.item.setting.api.QuiltItemSettings;
 import org.storbrit.britlib.reg.ItemRegistry;
 import org.storbrit.mint.Mint;
 
+@SuppressWarnings("unused")
 public class AugRedstoneItems {
 	public static final BlockItem AUGMENTED_REDSTONE = ItemRegistry.add(Mint.id("augmented_redstone"),
 			new AliasedBlockItem(AugRedstoneBlocks.AUGMENTED_REDSTONE_WIRE, new QuiltItemSettings()),

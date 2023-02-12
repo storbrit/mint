@@ -7,6 +7,7 @@ import org.storbrit.britlib.reg.BlockRegistry;
 import org.storbrit.mint.Mint;
 import org.storbrit.mint.augredstone.block.AugmentedRedstoneWireBlock;
 
+@SuppressWarnings("unused")
 public class AugRedstoneBlocks {
 	public static final Block AUGMENTED_REDSTONE_WIRE = BlockRegistry.add(Mint.id("augmented_redstone_wire"),
 			new AugmentedRedstoneWireBlock(QuiltBlockSettings.of(Material.DECORATION).noCollision().breakInstantly()),
