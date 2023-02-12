@@ -25,3 +25,8 @@ Mint is a Minecraft mod that makes some tiny changes that (hopefully) complement
 
 This repository is licensed under the [GPL V3](https://www.gnu.org/licenses/gpl-3.0.en.html): it is free software, and
 will stay free software.
+
+## Credits
+
+- Workflows: [emilyploszaj/emi](https://github.com/emilyploszaj/emi/tree/1.19.3/.github/workflows)
+  ([MIT License](.github/workflows/LICENSE))
