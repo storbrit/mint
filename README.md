@@ -4,6 +4,10 @@
 
 Mint is a Minecraft mod that makes some tiny changes that (hopefully) complement the vanilla experience.
 
+## Reduced maintenance
+
+When I first started this mod I was initially quite devoted to it but quickly my interest ran out so I just decided to publish the things that I did get around to in a beta release just in case anyone at all was actually interested. I'll still make updates from time to time but they won't be nearly as frequent as I was initially anticipating them to be.
+
 ## Features
 
 - Augmented redstone: right-click a redstone wire with a blaze rod to augment it. Augmented redstone is blue and
