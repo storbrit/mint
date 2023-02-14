@@ -1,5 +1,7 @@
 # Mint
 
+![Screenshot 2023-02-14 184338](https://user-images.githubusercontent.com/122255463/218828946-d72919f7-fdf8-4abb-8ca4-55bd7fa0b6bc.png)
+
 Mint is a Minecraft mod that makes some tiny changes that (hopefully) complement the vanilla experience.
 
 ## Features
